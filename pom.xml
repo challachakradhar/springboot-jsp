@@ -45,13 +45,13 @@
      <distributionManagement>
   <repository>
     <id>nexus</id>
-      <name> nexus release repository</name>
-    <url>http://3.137.198.137:8081/repository/maven-releases/</url>
+      <name> ANZrelease repository</name>
+    <url>http://ec2-65-0-106-51.ap-south-1.compute.amazonaws.com:8081/repository/ANZ_Release/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-      <name>Nexus Release repository</name>
-    <url>http://3.137.198.137:8081/repository/maven-snapshots/</url>
+      <name>ANZ Snapshot repository</name>
+    <url>http://ec2-65-0-106-51.ap-south-1.compute.amazonaws.com:8081/repository/ANZ_SNAPSHOT/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
